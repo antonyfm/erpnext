@@ -250,7 +250,7 @@
    "type": "Link"
   }
  ],
- "modified": "2021-04-19 15:48:44.089927",
+ "modified": "2021-08-11 17:42:29.259642",
  "modified_by": "Administrator",
  "module": "Setup",
  "name": "Home",
@@ -282,6 +282,12 @@
    "label": "Leaderboard",
    "link_to": "leaderboard",
    "type": "Page"
+  },
+  {
+   "doc_view": "",
+   "label": "ToDo",
+   "link_to": "ToDo",
+   "type": "DocType"
   }
  ]
 }
