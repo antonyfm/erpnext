@@ -1,0 +1,89 @@
+{
+ "actions": [],
+ "autoname": "FL-WPS.#####",
+ "creation": "2021-08-16 15:54:44.609540",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "procedure",
+  "date",
+  "base_material_specgrade",
+  "welded_to_specgrade",
+  "thickness",
+  "backing_material",
+  "file",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "procedure",
+   "fieldtype": "Data",
+   "label": "Procedure"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "base_material_specgrade",
+   "fieldtype": "Data",
+   "label": "Base Material Spec/Grade"
+  },
+  {
+   "fieldname": "welded_to_specgrade",
+   "fieldtype": "Data",
+   "label": "Welded to Spec/Grade"
+  },
+  {
+   "fieldname": "thickness",
+   "fieldtype": "Data",
+   "label": "Thickness"
+  },
+  {
+   "fieldname": "backing_material",
+   "fieldtype": "Data",
+   "label": "Backing material"
+  },
+  {
+   "fieldname": "file",
+   "fieldtype": "Attach",
+   "label": "File"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "WPS",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-08-16 15:54:44.609540",
+ "modified_by": "Administrator",
+ "module": "Quality Management",
+ "name": "WPS",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

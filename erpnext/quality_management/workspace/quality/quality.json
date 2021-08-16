@@ -10,6 +10,7 @@
  "hide_custom": 0,
  "icon": "quality",
  "idx": 0,
+ "is_default": 0,
  "is_standard": 1,
  "label": "Quality",
  "links": [
@@ -130,9 +131,44 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "WPS, PQR, WPQT",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Welding Procedure Specification WPS",
+   "link_to": "Welding Procedure Specification WPS",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Procedure Qualification Record PQR",
+   "link_to": "Procedure Qualification Record PQR",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Welding Procedure Qualification Test WPQT",
+   "link_to": "Welding Procedure Qualification Test WPQT",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2020-12-01 13:38:35.120213",
+ "modified": "2021-08-16 16:03:06.313728",
  "modified_by": "Administrator",
  "module": "Quality Management",
  "name": "Quality",

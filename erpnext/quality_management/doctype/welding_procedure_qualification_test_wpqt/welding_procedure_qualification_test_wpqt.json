@@ -1,0 +1,89 @@
+{
+ "actions": [],
+ "autoname": "FL-WPQT.#####",
+ "creation": "2021-08-16 16:01:41.813132",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "welder_name",
+  "id_no",
+  "test_date",
+  "std_test_no",
+  "wps_no",
+  "qualified_to",
+  "file",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "welder_name",
+   "fieldtype": "Data",
+   "label": "Welder name"
+  },
+  {
+   "fieldname": "id_no",
+   "fieldtype": "Data",
+   "label": "ID no"
+  },
+  {
+   "fieldname": "test_date",
+   "fieldtype": "Date",
+   "label": "Test Date"
+  },
+  {
+   "fieldname": "std_test_no",
+   "fieldtype": "Data",
+   "label": "Std test no"
+  },
+  {
+   "fieldname": "wps_no",
+   "fieldtype": "Data",
+   "label": "WPS no"
+  },
+  {
+   "fieldname": "qualified_to",
+   "fieldtype": "Data",
+   "label": "Qualified to"
+  },
+  {
+   "fieldname": "file",
+   "fieldtype": "Attach",
+   "label": "File"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Welding Procedure Qualification Test WPQT",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-08-16 16:01:41.813132",
+ "modified_by": "Administrator",
+ "module": "Quality Management",
+ "name": "Welding Procedure Qualification Test WPQT",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
